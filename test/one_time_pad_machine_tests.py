@@ -4,6 +4,7 @@ from message_converter import message_encoder, codebook_converter, table_convert
     converted_string_joiner, spec_stripper, segment_replacer_loop
 from otp_handler import otp_receiver, otp_encoder, otp_decoder, otp_handler
 from one_time_pad_machine import one_time_pad_machine
+# TODO: Update this to work using classes
 
 
 #############################

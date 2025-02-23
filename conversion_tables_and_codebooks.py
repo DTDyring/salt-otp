@@ -30,3 +30,8 @@ harran_codebook = {
     'mission': '332', 'target': '421', 'capture': '342', 'coordinates': '141', 'operation': '335', 'asset': '942',
     'foreign': '094'
 }
+
+all_codebooks_tables = {
+    'octen': {'table': octen_table, 'codebook': octen_codebook},
+    'harran': {'table': harran_table, 'codebook': harran_codebook}
+}

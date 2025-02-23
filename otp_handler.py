@@ -1,5 +1,6 @@
 """ These only handle numbers and, as a result, do not provide anything but the pad-enciphered/pad-deciphered message.
 They do not take in or put out letters or words directly."""
+# TODO: convert all this to class members in one_time_pad_machine.py
 
 
 def otp_handler(message, /, encode=True, recip='', otp='', kblock=''):
